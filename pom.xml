@@ -58,12 +58,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	</build>
 	<distributionManagement>
 		<repository>
-			<id>deployement</id>
+			<id>deployment</id>
 			<name>internal  release</name>
 			<url>http://localhost:8081/repository/jersey-poc-2.x-release/</url>
 		</repository>
 		<snapshotRepository>
-			<id>deployement</id>
+			<id>deployment</id>
 			<name>internal snapshot release</name>
 			<url>http://localhost:8081/repository/jersey-poc-2.x/</url>
 		</snapshotRepository>
