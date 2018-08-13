@@ -5,7 +5,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	<groupId>com.sreenu</groupId>
 	<artifactId>jersey-poc-2.x</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>jersey-poc-2.x Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<properties>
