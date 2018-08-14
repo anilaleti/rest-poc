@@ -9,6 +9,6 @@ public class JerseyService
     @GET
     public String getMsg()
     {
-         return "Jersey rest service running....";
+         return "Jersey rest service running...";
     }
 }
