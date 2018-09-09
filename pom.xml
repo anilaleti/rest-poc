@@ -13,7 +13,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		<jaxrs.version>2.0.1</jaxrs.version>
 	</properties>
 	<dependencies>
-		<!-- Servlet Dependency -->
+	
+	<!-- Swagger dependencies -->
+	<dependency>
+      <groupId>io.swagger</groupId>
+      <artifactId>swagger-jaxrs</artifactId>
+      <version>1.5.0</version>
+</dependency>
+
+		
+	 
+	 <!-- <dependency>
+  <groupId>io.swagger</groupId>
+  <artifactId>swagger-jersey2-jaxrs</artifactId>
+  <version>1.5.0</version>
+</dependency> -->
+	 <!-- Servlet Dependency -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
