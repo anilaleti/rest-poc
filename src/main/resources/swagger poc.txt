@@ -1,0 +1,27 @@
+
+version: 1.5.20
+
+swagger annotations 
+swagger jaxrs
+swagger core
+swagger models
+
+@Api: 
+1)Every rest resource should be annotated with @Api .
+2)It is used to  describe about what your rest resource will do (business requirement).
+3)it has mainly two attributes
+   a)value
+   b)description
+value: should be your rest resoource root path
+ex: @path("/creditlimit")
+
+    public class CreditLimitResource
+    {
+     
+
+    }
+
+ 
+
+
+
