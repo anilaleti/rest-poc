@@ -71,7 +71,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	<build>
 		<finalName>jersey-poc-2.x</finalName>
 	</build>
-	<distributionManagement>
+	<!--<distributionManagement>
 		<repository>
 			<id>deployment</id>
 			<name>internal  release</name>
@@ -82,6 +82,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 			<name>internal snapshot release</name>
 			<url>http://localhost:8081/repository/example-snapshot/</url>
 		</snapshotRepository>
-	</distributionManagement>
+	</distributionManagement>-->
 
 </project>
