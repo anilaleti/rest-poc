@@ -24,4 +24,8 @@ public class JerseyService {
 	public String getMsg() {
 		return "Jersey rest service running.";
 	}
+	public static void main(String[] args) {
+		JerseyService jerseyService= new JerseyService();
+		jerseyService.getMsg();
+	}
 }
