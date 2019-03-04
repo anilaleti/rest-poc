@@ -72,10 +72,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		<finalName>jersey-poc-2.x</finalName>
 	</build>
 	<distributionManagement>
-		<repository>
+          <repository>
 			<id>deployment</id>
 			<name>internal  release</name>
-			<url>http://localhost:8081/repository/example-release/</url>
+			<url>http://localhost:8081/repository/example-relase/</url>
 		</repository>
 		<snapshotRepository>
 			<id>deployment</id>
